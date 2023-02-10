@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="tw-bg-[#0a2722]">
       <q-toolbar>
         <q-btn
           flat
@@ -12,16 +12,13 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          One Shot Madness - {{ $route.name }}
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
     >
       <q-list>
@@ -54,7 +51,7 @@ const essentialLinks: EssentialLinkProps[] = [
     title: 'Docs',
     caption: 'quasar.dev',
     icon: 'school',
-    link: 'https://quasar.dev'
+    link: '/compendium'
   },
   {
     title: 'Github',
