@@ -1,6 +1,6 @@
 <template>
-  <q-page class="row items-center justify-evenly">
-    <div v-for="tarot in tarots" :key="tarot.name" class="col-6">
+  <q-page class="tw-grid sm:xl:tw-grid-cols-5 tw-grid-cols-2 tw-gap-4 items-center tw-justify-center">
+    <div v-for="tarot in tarots" :key="tarot.name" >
       <tarot-card
         v-bind="tarot"
       />

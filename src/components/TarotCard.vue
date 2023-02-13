@@ -1,7 +1,7 @@
 <template>
-  <RouterLink :to="{ name: 'tarot', params: { id } }">
+  <RouterLink :to="{ name: 'tarot', params: { id } }" class="tw-max-w-xs">
     <div class="tw-group">
-      <q-img :src="image_url" class="tw-max-w-xs" img-class="
+      <q-img :src="image_url" img-class="
           group-hover:tw-blur
           tw-transition
           tw-ease-in-out

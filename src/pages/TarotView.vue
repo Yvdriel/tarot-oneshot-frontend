@@ -5,11 +5,11 @@
         <img :src="current.image_url" class="testsimg" />
       </div>
       <div class="tw-text-center sm:xl:tw-pl-14 sm:xl:tw-w-[66.6667%]">
-        <div class="tw-text-6xl sm:xl:tw-text-8xl tw-pt-8 tw-text-slate-700">
+        <div class="tw-text-6xl sm:xl:tw-text-8xl tw-pt-8 tw-text-slate-700 tw-font-semibold">
           {{ current.number }} - {{ current.name }}
         </div>
         <div class="tw-text-[#b89662] blockquote tw-italic tw-mb-[-60px]">
-          <p class="tw-text-4xl tw-mt-[-55px] tw-mb-[0px]">
+          <p class="tw-text-4xl tw-mt-[-80px] tw-mb-[-20px]">
             {{ current.description }}
           </p>
         </div>
